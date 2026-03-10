@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>Fitness Form</h1>
+    <form action="/process.py"></form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+    <br>
+    <br>
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" placeholder="Enter your phone no.">
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter your password">
+    <br>
+    <br>
+    <p>Choose your gender :</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    
+    <br>
+    <br>
+    
+    <p>Choose your hobbies :</p>
+    <input type="checkbox" name="playing" value="playing" id="playing">
+    <label for="playing">Playing</label>
+
+    <input type="checkbox" name="reading" value="reading" id="reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" name="coding" value="coding" id="coding">
+    <label for="coding">Coding</label>
+
+    <br>
+    <br>
+
+    <label for="city">Choose a city :</label>
+    <select name="city" id="city">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="lucknow">Lucknow</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="message">Your message here :</label>
+    <br>
+    <textarea name="message" id="message" rows="4" cols=25"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</body>
+</html>
