@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: purple;
+}
+
+p
+{
+    color:red;
+    background-color: antiquewhite;
+    font-size:12px
+}
+
+.red{
+    background: red;
+    color: white;
+}
+
+.big{
+    background-color: green;
+    color: yellow;
+    font-size: 24px;
+}
+
+div p{
+    background-color: black;
+    color: white;
+    font-style:italic
+}
